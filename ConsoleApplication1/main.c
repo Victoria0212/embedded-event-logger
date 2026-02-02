@@ -31,8 +31,6 @@ int main() {
     EventQueue* queue = queue_create(10);
     EventLog* log = log_create(10);
 
-    //Menyn saknas här!
-
     queue_destroy(queue);
     log_destroy(log);
     return 0;

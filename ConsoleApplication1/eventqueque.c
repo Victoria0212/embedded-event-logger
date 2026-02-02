@@ -76,7 +76,7 @@ bool queue_dequeue(EventQueue* queue, Event* out) {
     if (queue->count == 0) {
         return false;
     }
-    //Ta ut eventet från head-platsen
+    //Ta ut eventet från head
     *out = queue->buffer[queue->head];
     queue->head = (queue->head + 1) % queue->capacity;
     queue->count--;

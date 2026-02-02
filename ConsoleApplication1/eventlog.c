@@ -108,11 +108,4 @@ void log_set(EventLog* log, int index, Event e) {
 }
 	
 
-	//öka size
-
-	//om size är större än capacity, allokera mer minne och öka capacity
-
-	//lägg till eventet på "events listan"
-
-
 
