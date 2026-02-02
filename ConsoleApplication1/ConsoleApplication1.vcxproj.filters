@@ -21,10 +21,25 @@
     <ClCompile Include="event.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="eventlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eventqueque.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="event.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eventlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eventqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
